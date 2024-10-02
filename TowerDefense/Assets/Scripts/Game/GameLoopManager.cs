@@ -13,7 +13,7 @@ public class GameLoopManager : MonoBehaviour
 
         StartCoroutine(GameLoop());
         InvokeRepeating("SpawnTest", 0f, 1f);
-        InvokeRepeating("RemoveTest", 0f, 0.5f);
+        InvokeRepeating("RemoveTest", 0f, 1.5f);
     }
 
     void RemoveTest()
