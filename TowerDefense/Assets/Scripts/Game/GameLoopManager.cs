@@ -1,27 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Unity.Collections;
+using UnityEngine.Jobs;
 
 public class GameLoopManager : MonoBehaviour
 {
+   
+    public static Queue<Enemy> EnemiesToRemove;
     private static Queue<int> EnemyIDsToSummon;
+
+
     public bool LoopShouldEnd;
     private void Start()
     {
         EnemyIDsToSummon = new Queue<int>();
         EnemySpawner.Init();
+        EnemiesToRemove = new Queue<Enemy>();
+
+        
+
+        
 
         StartCoroutine(GameLoop());
         InvokeRepeating("SpawnTest", 0f, 1f);
-        InvokeRepeating("RemoveTest", 0f, 1.5f);
-    }
+      
 
-    void RemoveTest()
-    {
-        if(EnemySpawner.EnemiesInGame.Count > 0)
-        {
-            EnemySpawner.RemoveEnemy(EnemySpawner.EnemiesInGame[Random.Range(0, EnemySpawner.EnemiesInGame.Count)]);
-        }
+   
     }
 
     void SpawnTest()
@@ -41,6 +46,15 @@ public class GameLoopManager : MonoBehaviour
                     EnemySpawner.SpawnEnemy(EnemyIDsToSummon.Dequeue());
                 }
             }
+            //remove
+            if(EnemiesToRemove.Count > 0)
+            {
+                for (int i = 0; i < EnemiesToRemove.Count; i++)
+                {
+                    EnemySpawner.RemoveEnemy(EnemiesToRemove.Dequeue());
+                }
+            }
+
 
             yield return null;
         }
@@ -48,5 +62,9 @@ public class GameLoopManager : MonoBehaviour
     public static void EnqueueEnemyIDToSummon(int ID)
     {
         EnemyIDsToSummon.Enqueue(ID);
+    }
+    public static void EnqueueEnemyToRemove(Enemy EnemyToRemove)
+    {
+        EnemiesToRemove.Enqueue(EnemyToRemove);
     }
 }

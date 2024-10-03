@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     public static List<Enemy> EnemiesInGame;
+    public static List<Transform> EnemiesInGameTransform;
     public static Dictionary<int, GameObject> EnemyPrefbs;
     public static Dictionary<int, Queue<Enemy>> EnemyObjectPools;
 
@@ -16,6 +17,7 @@ public class EnemySpawner : MonoBehaviour
             EnemyPrefbs = new Dictionary<int, GameObject>();
             EnemyObjectPools = new Dictionary<int, Queue<Enemy>>();
             EnemiesInGame = new List<Enemy>();
+            EnemiesInGameTransform = new List<Transform>();
 
             EnemyData[] Enemies = Resources.LoadAll<EnemyData>("Enemies");
 
@@ -60,6 +62,8 @@ public class EnemySpawner : MonoBehaviour
         {
             Debug.Log("No enemy with () ID");
         }
+
+        EnemiesInGameTransform.Add(SpawnedEnemy.transform);
         EnemiesInGame.Add(SpawnedEnemy);
         SpawnedEnemy.ID = EnemyID;
         return SpawnedEnemy;
@@ -70,6 +74,7 @@ public class EnemySpawner : MonoBehaviour
 
         EnemyObjectPools[EnemyToRemove.ID].Enqueue(EnemyToRemove);
         EnemiesInGame.Remove(EnemyToRemove);
+        EnemiesInGameTransform.Remove(EnemyToRemove.transform);
         EnemyToRemove.gameObject.SetActive(false);
     }
 
