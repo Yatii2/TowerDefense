@@ -18,11 +18,11 @@ Bijvoorbeeld:
 *"In dit script heb ik een array gebruikt voor al mijn vijanden die in de nieuwe wave worden gespawnd. Hierdoor heb ik mijzelf niet hoeven herhalen **(DRY)** in de code omdat ik met 1 regel alle enemies kan plaatsen via en for each loop.
 [link naar script](/MyTowerDefenseGame/Assets/Scripts/JustAScript.cs)"*
 
-## Product 2: "Projectmappen op GitHub"
+## Product 2: "Projectmappen op GitHub" +
 
 Je commit de mappenstructuur van je unity project op github en verwijst vanuit je readme naar de root map van je project. Met een netjes en goed gestructureerde mappenstructuur en benamingen van files toon je aan dat je dit leerdoel beheerst. 
 
-Dit is de [ROOT](/MyTowerDefenseGame/) folder van mijn unity project.
+Dit is de [ROOT]([/MyTowerDefenseGame/](https://github.com/Yatii2/TowerDefense/tree/main/TowerDefense)) folder van mijn unity project.
 
 Zorg dat deze verwijst naar je Develop branch.
 
@@ -120,7 +120,7 @@ classDiagram
 
 ```
 
-## Product 8: Prototype test video
+## Product 8: Prototype test video +
 Je hebt een werkend prototype gemaakt om een idee te testen. Omschrijf if je readme wat het idee van de mechanics is geweest wat je wilde testen en laat een korte video van de gameplay test zien. 
 
 [![example test video](https://ucarecdn.com/dbdc3ad0-f375-40ad-8987-9e6451b28b50/)](https://www.youtube.com/watch?v=CzzRML1swF0)
@@ -131,9 +131,9 @@ Je maakt een SCRUM planning en geeft daarbij een inschatting aan elke userstory 
 
 Plaats in de readme een link naar je trello en **zorg ervoor dat je deze openbaar maakt**
 
-[Link naar de openbare trello](https://trello.com/b/w60wkKSU/examen-paraphrenia)
+[Link naar de openbare trello]([https://trello.com/b/w60wkKSU/examen-paraphrenia](https://trello.com/b/kqA3BrNz/towerdefensem5))
 
-## Product 10: Gitflow conventions
+## Product 10: Gitflow conventions +
 
 Je hebt voor je eigen project in je readme gitflow conventies opgesteld en je hier ook aantoonbaar aan gehouden. 
 
@@ -142,6 +142,8 @@ De gitflow conventions gaan uit van een extra branch Develop naast de "Master"/"
 Verder worden features op een daarvoor bedoelde feature banch ontwikkeld. Ook kun je gebruik maken van een hotfix brancg vanaf develop.
 
 Leg hier uit welke branches jij gaat gebruiken en wat voor namen je hier aan gaat meegeven. Hoe vaak ga je comitten en wat voor commit messages wil je geven?
+
+Ik wil graag wel nette commits schrijven zodat ik weet wat ik heb ge-add of zodat ik weet waarom ik een commit heb gemaakt. Voor branches vind ik het zelf nog een beetje moeilijk om mee te werken maar natuurlijk wil ik alles netjes en overzichtelijk houden.
 
 Meer info over het gebruiken van gitflow [hier](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
 
