@@ -26,7 +26,7 @@ public class RoundManager : MonoBehaviour
         }
 
 
-        //als ik nog meer enemies wil
+        //als ik nog andere soort enemies wil
         //for (int i = 0; i < ?EnemyCount; i++)
         //{
         //    Instantiate(baseEnemyPrefab, new Vector3(0f, 0f, 0f), Quaternion.identity);
