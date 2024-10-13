@@ -11,7 +11,7 @@ Begin met een korte omschrijving van je towerdefense game en hoe deze werkt. Pla
 ## Product 1: "DRY SRP Scripts op GitHub" +gedaan
 
 (SRP) - In dit script heb ik een if statement gebruikt om te checken met een bool of het gameobject actief is of niet.
-[link]((https://github.com/Yatii2/TowerDefense/blob/main/TowerDefense/Assets/MainMenu/Scripts/Activate.cs))
+[link](https://github.com/Yatii2/TowerDefense/blob/main/TowerDefense/Assets/MainMenu/Scripts/Activate.cs)
 
 (DRY) - In dit script heb ik een while loop gebruikt om mijn enemies te spawnen per wave waardoor ik niet elke keer een if statement hoef te maken.
 [link](https://github.com/Yatii2/TowerDefense/blob/main/TowerDefense/Assets/Scripts/Enemies/RoundManager.cs)
