@@ -8,21 +8,19 @@ Begin met een korte omschrijving van je towerdefense game en hoe deze werkt. Pla
 ![also not](https://cdn.akamai.steamstatic.com/steam/apps/960090/ss_900d7c00d45ff2a258d4c8d59ee47f7f04854c37.600x338.jpg?t=1686097340)
 
 
-## Product 1: "DRY SRP Scripts op GitHub"
+## Product 1: "DRY SRP Scripts op GitHub" +gedaan
 
-Plaats hier minimaal 1 link naar scripts die voldoen aan de eisen van **"Don't Repeat Yourself (DRY)"** en **"Single Responsibility Principle"**.
-Omschrijf hier waarom jij denkt dat je in die scripts aan deze eisen voldoet.
+(SRP) - In dit script heb ik een if statement gebruikt om te checken met een bool of het gameobject actief is of niet.
+[link]([/MyTowerDefenseGame/Assets/Scripts/JustAScript.cs](https://github.com/Yatii2/TowerDefense/blob/main/TowerDefense/Assets/MainMenu/Scripts/Activate.cs))
 
-Bijvoorbeeld:
+(DRY) - In dit script heb ik een while loop gebruikt om mijn enemies te spawnen per wave waardoor ik niet elke keer een if statement hoef te maken.
+[link](https://github.com/Yatii2/TowerDefense/blob/main/TowerDefense/Assets/Scripts/Enemies/RoundManager.cs)
 
-*"In dit script heb ik een array gebruikt voor al mijn vijanden die in de nieuwe wave worden gespawnd. Hierdoor heb ik mijzelf niet hoeven herhalen **(DRY)** in de code omdat ik met 1 regel alle enemies kan plaatsen via en for each loop.
-[link naar script](/MyTowerDefenseGame/Assets/Scripts/JustAScript.cs)"*
-
-## Product 2: "Projectmappen op GitHub" +
+## Product 2: "Projectmappen op GitHub" +gedaan
 
 Je commit de mappenstructuur van je unity project op github en verwijst vanuit je readme naar de root map van je project. Met een netjes en goed gestructureerde mappenstructuur en benamingen van files toon je aan dat je dit leerdoel beheerst. 
 
-Dit is de [ROOT]([/MyTowerDefenseGame/](https://github.com/Yatii2/TowerDefense/tree/main/TowerDefense)) folder van mijn unity project.
+Dit is de [ROOT]([TowerDefense) folder van mijn unity project.
 
 Zorg dat deze verwijst naar je Develop branch.
 
@@ -40,10 +38,9 @@ Plaats in je readme een animated gif van je gameplay (+- 10 sec.) waarin de impl
 
 ![Textures Sprites](readmeVisuals/texturesSprites.gif)
 
-## Product 5: Issues met debug screenshots op GitHub 
+## Product 5: Issues met debug screenshots op GitHub +gedaan
 
-Zodra je bugs tegenkomt maak je een issue aan op github. In de issue omschrijf je het probleem en je gaat proberen via breakpoints te achterhalen wat het probleem is. Je maakt screenshot(s) van het debuggen op het moment dat je via de debugger console ziet wat er mis is. Deze screenshots met daarbij uitleg over het probleem en de bijhorende oplossing post je in het bijhorende github issue. 
-[Hier de link naar mijn issues](https://github.com/erwinhenraat/TowerDefenseTemplate/issues/)
+[Hier de link naar mijn issues](https://github.com/Yatii2/TowerDefense/issues)
 
 ## Product 6: Game design met onderbouwing 
 
@@ -125,7 +122,7 @@ Je hebt een werkend prototype gemaakt om een idee te testen. Omschrijf if je rea
 
 [![example test video](https://ucarecdn.com/dbdc3ad0-f375-40ad-8987-9e6451b28b50/)](https://www.youtube.com/watch?v=CzzRML1swF0)
 
-## Product 9: SCRUM planning inschatting 
+## Product 9: SCRUM planning inschatting +gedaan
 
 Je maakt een SCRUM planning en geeft daarbij een inschatting aan elke userstory d.m.v storypoints / zelf te bepalen eenheden. (bijv. Storypoints, Sizes of tijd) aan het begin van een nieuwe sprint update je deze inschatting per userstory. 
 
@@ -133,17 +130,17 @@ Plaats in de readme een link naar je trello en **zorg ervoor dat je deze openbaa
 
 [Link naar de openbare trello]([https://trello.com/b/w60wkKSU/examen-paraphrenia](https://trello.com/b/kqA3BrNz/towerdefensem5))
 
-## Product 10: Gitflow conventions +
+## Product 10: Gitflow conventions +gedaan
 
 Je hebt voor je eigen project in je readme gitflow conventies opgesteld en je hier ook aantoonbaar aan gehouden. 
 
 De gitflow conventions gaan uit van een extra branch Develop naast de "Master"/"Main". Op de main worden alleen stabiele releases gezet.
 
-Verder worden features op een daarvoor bedoelde feature banch ontwikkeld. Ook kun je gebruik maken van een hotfix brancg vanaf develop.
+Verder worden features op een daarvoor bedoelde feature banch ontwikkeld. Ook kun je gebruik maken van een hotfix branch vanaf develop.
 
 Leg hier uit welke branches jij gaat gebruiken en wat voor namen je hier aan gaat meegeven. Hoe vaak ga je comitten en wat voor commit messages wil je geven?
 
-Ik wil graag wel nette commits schrijven zodat ik weet wat ik heb ge-add of zodat ik weet waarom ik een commit heb gemaakt. Voor branches vind ik het zelf nog een beetje moeilijk om mee te werken maar natuurlijk wil ik alles netjes en overzichtelijk houden.
+# Ik wil graag wel nette commits schrijven zodat ik weet wat ik heb ge-add of zodat ik weet waarom ik een commit heb gemaakt. Voor branches vind ik het zelf nog een beetje moeilijk om mee te werken maar natuurlijk wil ik alles netjes en overzichtelijk houden.
 
-Meer info over het gebruiken van gitflow [hier](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+
 
