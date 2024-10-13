@@ -20,7 +20,7 @@ public class EnemyMovement : MonoBehaviour
      void Update()
     {
         Vector3 dir = target.position - transform.position;
-        transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
+        transform.Translate(speed * Time.deltaTime * dir.normalized, Space.World);
         RotateTowardsWayPoint();
 
         if (Vector3.Distance(transform.position, target.position) <= 0.4f)
