@@ -117,7 +117,7 @@ classDiagram
 
 ```
 
-## Product 8: Prototype test video +
+## Product 8: Prototype test video 
 Je hebt een werkend prototype gemaakt om een idee te testen. Omschrijf if je readme wat het idee van de mechanics is geweest wat je wilde testen en laat een korte video van de gameplay test zien. 
 
 [![example test video](https://ucarecdn.com/dbdc3ad0-f375-40ad-8987-9e6451b28b50/)](https://www.youtube.com/watch?v=CzzRML1swF0)
@@ -130,8 +130,7 @@ Plaats in de readme een link naar je trello en **zorg ervoor dat je deze openbaa
 
 [Link naar de openbare trello]([https://trello.com/b/w60wkKSU/examen-paraphrenia](https://trello.com/b/kqA3BrNz/towerdefensem5))
 
-## Product 10: Gitflow conventions +gedaan
-
+## Product 10: Gitflow conventions
 Je hebt voor je eigen project in je readme gitflow conventies opgesteld en je hier ook aantoonbaar aan gehouden. 
 
 De gitflow conventions gaan uit van een extra branch Develop naast de "Master"/"Main". Op de main worden alleen stabiele releases gezet.
@@ -140,7 +139,7 @@ Verder worden features op een daarvoor bedoelde feature banch ontwikkeld. Ook ku
 
 Leg hier uit welke branches jij gaat gebruiken en wat voor namen je hier aan gaat meegeven. Hoe vaak ga je comitten en wat voor commit messages wil je geven?
 
-# Ik wil graag wel nette commits schrijven zodat ik weet wat ik heb ge-add of zodat ik weet waarom ik een commit heb gemaakt. Voor branches vind ik het zelf nog een beetje moeilijk om mee te werken maar natuurlijk wil ik alles netjes en overzichtelijk houden.
+.
 
 
 
