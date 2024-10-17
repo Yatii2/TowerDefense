@@ -27,13 +27,9 @@ Zorg dat deze verwijst naar je Develop branch.
 
 [Release](https://github.com/Yatii2/TowerDefense/releases)
 
-## Product 4: Game met Sprites(animations) en Textures 
+## Product 4: Game met Sprites(animations) en Textures +gedaan
 
-De build van je game bevat textures, sprites en sprite animations(bijv particles) die op de juiste manier zijn gebruikt en zorgen voor een goede afwerking van je game.  
-
-Plaats in je readme een animated gif van je gameplay (+- 10 sec.) waarin de implementatie van je textures en sprites goed te zien is.
-
-![Textures Sprites](readmeVisuals/texturesSprites.gif)
+![Textures Sprites](https://github.com/Yatii2/TowerDefense/blob/main/Gameplay.gif)
 
 ## Product 5: Issues met debug screenshots op GitHub +gedaan
 
