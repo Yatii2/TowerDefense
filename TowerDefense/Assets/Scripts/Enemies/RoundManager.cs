@@ -10,7 +10,7 @@ public class RoundManager : MonoBehaviour
     [SerializeField] private int currentRound = 1;
     [SerializeField] private int maxRounds = 5; 
     [SerializeField] private float timeBetweenRounds = 15f; 
-    [SerializeField] private int baseEnemyCount; 
+    [SerializeField] private int baseEnemyCount;
 
     private void Start()
     {
@@ -27,6 +27,7 @@ public class RoundManager : MonoBehaviour
             for (int i = 0; i < baseEnemyCount; i++)
             {
                 Instantiate(baseEnemyPrefab, new Vector3(12.12f, 3.2f, -6.55f), Quaternion.identity);
+                
                 yield return new WaitForSeconds(2f);
             }
 

@@ -15,6 +15,13 @@ public class Tower : MonoBehaviour
     private float fireCooldown = 0f;
     private List<Transform> enemiesInRange = new List<Transform>();
 
+    [SerializeField] private AudioClip shootAudio;
+    private AudioSource audioSource;
+
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
     private void Update()
     {
         fireCooldown -= Time.deltaTime;
@@ -48,6 +55,8 @@ public class Tower : MonoBehaviour
     {
         GameObject bulletGO = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         Bullet bullet = bulletGO.GetComponent<Bullet>();
+        audioSource.clip = shootAudio;
+        audioSource.Play();
 
         if (bullet != null)
         {

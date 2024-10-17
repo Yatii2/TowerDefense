@@ -6,8 +6,10 @@ public class Node : MonoBehaviour
 {
     public GameObject cannon;
     private TowerSystem towerSystem;
-
     private bool hasTower = false;
+
+    [SerializeField] private AudioClip placeAudio;
+    private AudioSource audioSource;
     //private MoneyManager moneyS;
     //private int cannonCost;
 
@@ -16,6 +18,8 @@ public class Node : MonoBehaviour
     {
         towerSystem = FindObjectOfType<TowerSystem>();
         //moneyS = FindObjectOfType<MoneyManager>();
+
+        audioSource = GetComponent<AudioSource>();
     }
      private void Update()
     {
@@ -29,7 +33,10 @@ public class Node : MonoBehaviour
             return;
         }
 
+        
         CreateTower();
+        audioSource.clip = placeAudio;
+        audioSource.Play();
     }
 
     public void CreateTower()
