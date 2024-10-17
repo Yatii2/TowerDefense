@@ -1,11 +1,10 @@
-# TowerDefenseTemplate
-Dit is een template wat door jullie te gebruiken is voor het juist inleveren van alle producten voor de Towerdefense beroepsopdracht. **Verwijder uiteindelijk de template teksten!**
+# TowerDefenseTemplate +gedaan
+In mijn game komen er piraten die je schat willen stelen aan het einde van het pad.
+Je spawnt torens (cannonen) te plaatsen om de piraten dood te maken en je schat veilig te houden.
 
-Begin met een korte omschrijving van je towerdefense game en hoe deze werkt. Plaats ook een paar screenshots.
+![main menu](https://github.com/Yatii2/TowerDefense/blob/main/MainMenu.jpg)
 
-![not really my game](https://cdn.akamai.steamstatic.com/steam/apps/246420/ss_aaaf33cdb9106bd0801a36049516d95c6f2352b0.600x338.jpg?t=1686321490)
-
-![also not](https://cdn.akamai.steamstatic.com/steam/apps/960090/ss_900d7c00d45ff2a258d4c8d59ee47f7f04854c37.600x338.jpg?t=1686097340)
+![my game](https://github.com/Yatii2/TowerDefense/blob/main/MainGame.jpg)
 
 
 ## Product 1: "DRY SRP Scripts op GitHub" +gedaan
@@ -24,11 +23,9 @@ Dit is de [ROOT](TowerDefense) folder van mijn unity project.
 
 Zorg dat deze verwijst naar je Develop branch.
 
-## Product 3: Build op Github
+## Product 3: Build op Github +gedaan
 
-Je maakt in Unity een stabiele “build” van je game waarbij bugs en logs eerst zijn verwijderd. Deze buildfiles upload je in je repository onder releases.  Bij eventuele afwijkingen moeten deze worden gedocumenteerd in de release. (Bijv controller nodig of spelen via netwerk etc..) 
-
-[Release Voorbeeld](https://github.com/erwinhenraat/TowerDefenseTemplate/releases)
+[Release](https://github.com/Yatii2/TowerDefense/releases)
 
 ## Product 4: Game met Sprites(animations) en Textures 
 
