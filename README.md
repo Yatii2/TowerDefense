@@ -46,18 +46,18 @@ Omschrijf per mechanic welke game design keuzes je hebt gemaakt en waarom je dit
 
 *  **De game bevat vernietigbare vijanden die 1 of meerderen paden kunnen volgen.** 
 
-*Mijn game bevat vernietigbare enemies die bountyhunters zijn, zij volgen het pad vanaf begin tot einde op de map en kunnen dood (vertietigt) gaan doordat ze geschoten worden door een cannon.*
+Mijn game bevat vernietigbare enemies die bountyhunters zijn, zij volgen het pad vanaf begin tot einde op de map en kunnen dood (vertietigt) gaan doordat ze geschoten worden door een cannon.
 
 *  **De speler kan verschillende types torens kopen en plaatsen.**  
 
-*Ik heb 3 verschillende torens en dat zijn:
+Ik heb 3 verschillende torens en dat zijn:
 1. Weak cannons: delen 10 damage per hit.
 2. Average cannon: delen 30 damage per hit.
-3. Strong cannons: delen 100 damage per hit.*
+3. Strong cannons: delen 100 damage per hit.
 
 *  **De game bevat een “wave” systeem waarmee er onder bepaalde voorwaarden (tijd/vijanden op) nieuwe waves met vijanden het veld in komen.**
 
-*Mijn game heeeft een wave systeem die elke 15 seconden 5 enemies spawnt.*
+Mijn game heeeft een wave systeem die elke 15 seconden 5 enemies spawnt.
 
 
 ## Product 7: Class Diagram voor volledige codebase 
@@ -106,7 +106,7 @@ Je maakt een SCRUM planning en geeft daarbij een inschatting aan elke userstory 
 
 Plaats in de readme een link naar je trello en **zorg ervoor dat je deze openbaar maakt**
 
-[Link naar de openbare trello]([https://trello.com/b/w60wkKSU/examen-paraphrenia](https://trello.com/b/kqA3BrNz/towerdefensem5))
+[Link naar de openbare trello](https://trello.com/b/kqA3BrNz/towerdefensem5)
 
 ## Product 10: Gitflow conventions
 Je hebt voor je eigen project in je readme gitflow conventies opgesteld en je hier ook aantoonbaar aan gehouden. 
