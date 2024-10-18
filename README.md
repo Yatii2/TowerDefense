@@ -1,5 +1,5 @@
 # TowerDefenseTemplate +gedaan
-In mijn game komen er piraten die je schat willen stelen aan het einde van het pad.
+In mijn game komen er bountyhunters die je schat willen stelen aan het einde van het pad.
 Je spawnt torens (cannonen) te plaatsen om de piraten dood te maken en je schat veilig te houden.
 
 ![main menu](https://github.com/Yatii2/TowerDefense/blob/main/MainMenu.jpg)
@@ -35,45 +35,30 @@ Zorg dat deze verwijst naar je Develop branch.
 
 [Hier de link naar mijn issues](https://github.com/Yatii2/TowerDefense/issues)
 
-## Product 6: Game design met onderbouwing 
+## Product 6: Game design met onderbouwing +gedaan
 
 Je gebruikt een game design tool om je game design vast te leggen en te communiceren. Daarnaast onderbouw je de design keuzes ten aanzien van “playability” en “replayability” voor je game schriftelijk. 
 
 Voorbeeld van een one page design:
-![](https://external-preview.redd.it/48mnMpA0TbiihGo4HsJiWrJhK72xeTRwV2o70_AKilw.jpg?auto=webp&s=3a1ae18f0e4fba7a465643987cbe9cf409466e53)
+![](https://github.com/Yatii2/TowerDefense/blob/main/onepagedesign.png)
 
 Omschrijf per mechanic welke game design keuzes je hebt gemaakt en waarom je dit hebt gedaan.
 
-*  **Je game bevat torens die kunnen mikken en schieten op een bewegend doel.** 
+*  **De game bevat vernietigbare vijanden die 1 of meerderen paden kunnen volgen.** 
 
-*Mijn torens hebben ook nog een f.o.v waardoor je pas gaan mikken als enemies in de buurt zijn. ook hebben mijn torens geen 360 graden view maar 90 graden waardoor het een extra uitdaging is voor de speler om de torens ook op de meest tactische manier te roteren.*
+*Mijn game bevat vernietigbare enemies die bountyhunters zijn, zij volgen het pad vanaf begin tot einde op de map en kunnen dood (vertietigt) gaan doordat ze geschoten worden door een cannon.*
 
-*  **Je game bevat vernietigbare vijanden die 1 of meerderen paden kunnen volgen.**  
+*  **De speler kan verschillende types torens kopen en plaatsen.**  
 
-*Mijn enemies bevatten 3 types: 
-1 snelle die ook snel dood gaat. echter als er veel snelle enemies zijn is de kans steeds groter dat ze bij hun doel komen omdat de torens maar 1 enemy tegelijk kan targetten. Het forceert de speler dus om veel goedkope torens te plaatsen.
-Ook is er een langzame gepantserde enemy. Deze kan eigenlijk alleen maar worden vernietigd door magische torens die zijn geupgrade. goedkope torens doen bijna geen schade. De speler moet dus een balans gaan zoeken tussen veel goedkope torens en upgraden van torens.
-Tot slot is er een vijand die andere enemies healt dit zorgt ervoor dat de speler een extra nadeel heeft en de torens handmatig de deze healer moet laten targetten hierdoor wordt de speler gedwongen om actiever de game te spelen omdat anders geen enkele enemy meer dood gaat.*
+*Ik heb 3 verschillende torens en dat zijn:
+1. Weak cannons: delen 10 damage per hit.
+2. Average cannon: delen 30 damage per hit.
+3. Strong cannons: delen 100 damage per hit.*
 
-*  **Je game bevat een “wave” systeem waarmee er onder bepaalde voorwaarden (tijd/vijanden op) nieuwe waves met vijanden het veld in komen.**
+*  **De game bevat een “wave” systeem waarmee er onder bepaalde voorwaarden (tijd/vijanden op) nieuwe waves met vijanden het veld in komen.**
 
-*Onderbouwing hier...*
+*Mijn game heeeft een wave systeem die elke 15 seconden 5 enemies spawnt.*
 
-*  **Een “health” systeem waarmee je levens kunt verliezen als vijanden hun doel bereiken en zodoende het spel kunt verliezen.** 
-
-*Onderbouwing hier...*
-
-*  **Een “resource” systeem waarmee je resources kunt verdienen waarmee je torens kunt kopen en .evt upgraden.**
-
-*Onderbouwing hier...*
-
-*  **Een “upgrade” systeem om je torens te verbeteren.**
-
-*Onderbouwing hier...*
-
-*  **Een “movement prediction” systeem waarmee je kan berekenen waar een toren heen moeten schieten om een bewegend object te kunnen raken. (Moeilijk)**
-
-*Onderbouwing hier...*
 
 ## Product 7: Class Diagram voor volledige codebase 
 
