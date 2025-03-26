@@ -62,9 +62,6 @@ Mijn game heeeft een wave systeem die elke 15 seconden 5 enemies spawnt.
 
 ## Product 9: SCRUM planning inschatting 
 
-Je maakt een SCRUM planning en geeft daarbij een inschatting aan elke userstory d.m.v storypoints / zelf te bepalen eenheden. (bijv. Storypoints, Sizes of tijd) aan het begin van een nieuwe sprint update je deze inschatting per userstory. 
-
-Plaats in de readme een link naar je trello en **zorg ervoor dat je deze openbaar maakt**
 
 [Link naar de openbare trello](https://trello.com/b/kqA3BrNz/towerdefensem5)
 
