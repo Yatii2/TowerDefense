@@ -21,7 +21,6 @@ Je commit de mappenstructuur van je unity project op github en verwijst vanuit j
 
 Dit is de [ROOT](TowerDefense) folder van mijn unity project.
 
-Zorg dat deze verwijst naar je Develop branch.
 
 ## Product 3: Build op Github
 
